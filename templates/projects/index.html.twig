@@ -1,6 +1,6 @@
 {% extends 'base.html.twig' %}
 
-{% block title %}Hello ProjectsController!{% endblock %}
+{% block title %}Devoir SLAM{% endblock %}
 
 {% block body %}
 <style>
@@ -11,7 +11,7 @@
 <div class="example-wrapper">
     <p> {{ project|length}} projects :  </p>
     <ul> 
-    {% for projects in projet %}
+    {% for projects in project %}
     <li> {{ projects|join }} </li>
      {% endfor %}
     </ul>

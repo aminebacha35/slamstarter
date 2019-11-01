@@ -14,7 +14,7 @@ class ProjectsController extends AbstractController
     {
         return $this->render('projects/index.html.twig', [
             'controller_name' => 'ProjectsController',
-             'project' => ["project1","project2","project3"] 
+             'project' => ["project 1","project 2","project 3"] 
         ]);
     }
 }
